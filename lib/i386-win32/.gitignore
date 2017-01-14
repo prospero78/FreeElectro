@@ -1,0 +1,6 @@
+*.compiled
+*.o
+*.or
+*.res
+*.lfm
+*.ppu
