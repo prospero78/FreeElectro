@@ -4,5 +4,22 @@ object winMain: TwinMain
   Top = 165
   Width = 320
   Caption = 'Свободная электрика'
+  Menu = mnuMain
   LCLVersion = '5.7'
+  object mnuMain: TMainMenu
+    left = 64
+    top = 65
+    object mnuWired: TMenuItem
+      Caption = 'Провода'
+      object mnuWireSquare: TMenuItem
+        Caption = 'Сечение'
+      end
+      object mnuSorted1faze: TMenuItem
+        Caption = 'Марка (1 фаза)'
+      end
+      object mnuSorted3faze: TMenuItem
+        Caption = 'Марка (3 фаза)'
+      end
+    end
+  end
 end
