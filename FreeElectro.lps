@@ -17,7 +17,7 @@
       <Unit1>
         <Filename Value="pakWin\modWinMain.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
+        <ComponentName Value="winMain"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <UsageCount Value="20"/>
