@@ -8,7 +8,7 @@ USES
         Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs;
 
 TYPE
-        TForm1 = CLASS(TForm)
+        TwinMain = CLASS(TForm)
         PRIVATE
                 { private declarations }
         PUBLIC
@@ -16,7 +16,7 @@ TYPE
         END;
 
 VAR
-        Form1: TForm1;
+        winMain: TwinMain;
 
 IMPLEMENTATION
 
