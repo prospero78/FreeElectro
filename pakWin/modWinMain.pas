@@ -5,10 +5,18 @@ UNIT modWinMain;
 INTERFACE
 
 USES
-        Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs;
+        Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus;
 
 TYPE
+
+		{ TwinMain }
+
         TwinMain = CLASS(TForm)
+				mnuSorted3faze: TMenuItem;
+				mnuWired: TMenuItem;
+				mnuWireSquare: TMenuItem;
+				mnuSorted1faze: TMenuItem;
+				mnuMain: TMainMenu;
         PRIVATE
                 { private declarations }
         PUBLIC
