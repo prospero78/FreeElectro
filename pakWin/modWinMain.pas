@@ -13,12 +13,15 @@ TYPE
 		{ TwinMain }
 
         TwinMain = CLASS(TForm)
+							mnuWireExit: TMenuItem;
+							mnuWireSep1: TMenuItem;
 				mnuSorted3faze: TMenuItem;
 				mnuWired: TMenuItem;
 				mnuWireSquare: TMenuItem;
 				mnuSorted1faze: TMenuItem;
 				mnuMain: TMainMenu;
-				PROCEDURE mnuWireSquareClick(Sender: TObject);
+				PROCEDURE mnuWireExitClick(Sender: TObject);
+    PROCEDURE mnuWireSquareClick(Sender: TObject);
         PRIVATE
                 { private declarations }
         PUBLIC
@@ -37,6 +40,11 @@ IMPLEMENTATION
 PROCEDURE TwinMain.mnuWireSquareClick(Sender: TObject);
 BEGIN
       winSize.Show;
+end;
+
+PROCEDURE TwinMain.mnuWireExitClick(Sender: TObject);
+BEGIN
+      Application.Terminate;
 end;
 
 END.
