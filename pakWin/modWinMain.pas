@@ -5,7 +5,8 @@ UNIT modWinMain;
 INTERFACE
 
 USES
-        Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus;
+        Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
+        modWinSize;
 
 TYPE
 
@@ -17,6 +18,7 @@ TYPE
 				mnuWireSquare: TMenuItem;
 				mnuSorted1faze: TMenuItem;
 				mnuMain: TMainMenu;
+				PROCEDURE mnuWireSquareClick(Sender: TObject);
         PRIVATE
                 { private declarations }
         PUBLIC
@@ -29,6 +31,13 @@ VAR
 IMPLEMENTATION
 
 {$R *.lfm}
+
+{ TwinMain }
+
+PROCEDURE TwinMain.mnuWireSquareClick(Sender: TObject);
+BEGIN
+      winSize.Show;
+end;
 
 END.
 
