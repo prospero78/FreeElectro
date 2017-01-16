@@ -4,15 +4,13 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
         <Filename Value="FreeElectro.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="32" Y="13"/>
+        <UsageCount Value="23"/>
       </Unit0>
       <Unit1>
         <Filename Value="pakWin\modWinMain.pas"/>
@@ -21,13 +19,23 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="9" Y="34"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="19" Y="9"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="pakWin\modWinSize.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="winSize"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
     </Units>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="5" HistoryIndex="4">
       <Position1>
         <Filename Value="pakWin\modWinMain.pas"/>
       </Position1>
@@ -39,6 +47,14 @@
         <Filename Value="pakWin\modWinMain.pas"/>
         <Caret Line="43" Column="9" TopLine="41"/>
       </Position3>
+      <Position4>
+        <Filename Value="pakWin\modWinMain.pas"/>
+        <Caret Line="42" Column="9" TopLine="10"/>
+      </Position4>
+      <Position5>
+        <Filename Value="pakWin\modWinMain.pas"/>
+        <Caret Line="38" Column="20" TopLine="10"/>
+      </Position5>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
