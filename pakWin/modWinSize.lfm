@@ -42,6 +42,7 @@ object winSize: TwinSize
     ParentFont = False
     ParentShowHint = False
     ReadOnly = True
+    ScrollBars = ssAutoBoth
     ShowHint = True
     TabOrder = 0
   end
