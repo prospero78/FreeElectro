@@ -6,13 +6,14 @@ INTERFACE
 
 USES
         Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-        modWinSize;
+				StdCtrls, modWinSize;
 
 TYPE
 
 		{ TwinMain }
 
         TwinMain = CLASS(TForm)
+							btnExit: TButton;
 							mnuWireExit: TMenuItem;
 							mnuWireSep1: TMenuItem;
 				mnuSorted3faze: TMenuItem;
@@ -20,7 +21,8 @@ TYPE
 				mnuWireSquare: TMenuItem;
 				mnuSorted1faze: TMenuItem;
 				mnuMain: TMainMenu;
-				PROCEDURE mnuWireExitClick(Sender: TObject);
+				PROCEDURE btnExitClick(Sender: TObject);
+    PROCEDURE mnuWireExitClick(Sender: TObject);
     PROCEDURE mnuWireSquareClick(Sender: TObject);
         PRIVATE
                 { private declarations }
@@ -43,6 +45,11 @@ BEGIN
 end;
 
 PROCEDURE TwinMain.mnuWireExitClick(Sender: TObject);
+BEGIN
+      Application.Terminate;
+end;
+
+PROCEDURE TwinMain.btnExitClick(Sender: TObject);
 BEGIN
       Application.Terminate;
 end;
