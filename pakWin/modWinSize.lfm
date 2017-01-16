@@ -1,17 +1,17 @@
 object winSize: TwinSize
   Left = 540
-  Height = 433
+  Height = 546
   Top = 155
   Width = 765
   Caption = 'Площадь сечения проводов'
-  ClientHeight = 433
+  ClientHeight = 546
   ClientWidth = 765
   LCLVersion = '5.7'
   object txtSize: TMemo
     Left = 0
     Height = 321
     Hint = 'Список сечения проводов'
-    Top = 112
+    Top = 224
     Width = 758
     Font.CharSet = RUSSIAN_CHARSET
     Font.Height = -12
@@ -62,5 +62,25 @@ object winSize: TwinSize
     Width = 116
     Caption = '1 провод (алюминий)'
     TabOrder = 2
+  end
+  object htmWireSize: THtmlViewer
+    Left = 8
+    Height = 152
+    Hint = 'Просмотр данных'
+    Top = 64
+    Width = 750
+    BorderStyle = htFocused
+    DefFontName = 'Times New Roman'
+    DefPreFontName = 'Courier New'
+    HistoryMaxCount = 0
+    NoSelect = False
+    PrintMarginBottom = 2
+    PrintMarginLeft = 2
+    PrintMarginRight = 2
+    PrintMarginTop = 2
+    PrintScale = 1
+    ScrollBars = ssAutoBoth
+    ShowHint = True
+    TabOrder = 3
   end
 end
