@@ -18,10 +18,10 @@
         <Filename Value="pakWin\modWinMain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="winMain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="42"/>
-        <CursorPos X="9" Y="44"/>
+        <CursorPos X="9" Y="34"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
