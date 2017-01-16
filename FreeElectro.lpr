@@ -7,7 +7,7 @@ USES
         cthreads,
         {$ENDIF}{$ENDIF}
         Interfaces, // this includes the LCL widgetset
-        Forms, modWinMain, modWinSize
+        Forms, pl_excontrols, lz_fpweb, pl_htmlviewer, modWinMain, modWinSize
         { you can add units after this };
 
 {$R *.res}

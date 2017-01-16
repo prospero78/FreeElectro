@@ -17,7 +17,7 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <BuildNr Value="7"/>
+      <BuildNr Value="8"/>
       <Language Value="0419"/>
       <CharSet Value="04E3"/>
       <Attributes pvaDebug="True" pvaSpecialBuild="True"/>
@@ -34,10 +34,25 @@
         <FormatVersion Value="1"/>
       </local>
     </RunParams>
-    <RequiredPackages Count="1">
+    <RequiredPackages Count="6">
       <Item1>
-        <PackageName Value="LCL"/>
+        <PackageName Value="pl_HtmlViewer"/>
       </Item1>
+      <Item2>
+        <PackageName Value="lz_fpweb"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="pl_excontrols"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="pl_cindy"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="pl_brook"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCL"/>
+      </Item6>
     </RequiredPackages>
     <Units Count="3">
       <Unit0>
@@ -84,7 +99,6 @@
         <OverflowChecks Value="True"/>
         <StackChecks Value="True"/>
       </Checks>
-      <VerifyObjMethodCallValidity Value="True"/>
       <TargetProcessor Value="pentium4"/>
       <TargetCPU Value="i386"/>
       <TargetOS Value="win32"/>
@@ -99,7 +113,6 @@
     </Linking>
     <Other>
       <Verbosity>
-        <ShowExecInfo Value="True"/>
         <ShowHintsForUnusedUnitsInMainSrc Value="True"/>
       </Verbosity>
     </Other>
