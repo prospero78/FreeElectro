@@ -21,6 +21,13 @@ object winMain: TwinMain
       object mnuSorted3faze: TMenuItem
         Caption = 'Марка (3 фаза)'
       end
+      object mnuWireSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuWireExit: TMenuItem
+        Caption = 'Выход'
+        OnClick = mnuWireExitClick
+      end
     end
   end
 end
