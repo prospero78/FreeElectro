@@ -4,8 +4,19 @@ object winMain: TwinMain
   Top = 188
   Width = 320
   Caption = 'Свободная электрика'
+  ClientHeight = 220
+  ClientWidth = 320
   Menu = mnuMain
   LCLVersion = '5.7'
+  object btnExit: TButton
+    Left = 253
+    Height = 24
+    Top = 192
+    Width = 59
+    Caption = 'Выход'
+    OnClick = btnExitClick
+    TabOrder = 0
+  end
   object mnuMain: TMainMenu
     left = 64
     top = 65
