@@ -5,8 +5,9 @@ UNIT modWinSize;
 INTERFACE
 
 USES
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  LResources;
+  Classes, SysUtils, fphttpwebclient, FileUtil, HtmlView, TplButtonUnit,
+	cySimpleGauge, BrookFCLEventLogHandler, Forms, Controls, Graphics, Dialogs,
+	StdCtrls, LResources;
 
 TYPE
 
@@ -15,6 +16,7 @@ TYPE
   TwinSize = CLASS(TForm)
     btn1WireAl: TButton;
     btn1WireCu: TButton;
+		htmWireSize: THtmlViewer;
     txtSize:    TMemo;
     PROCEDURE btn1WireCuClick(Sender: TObject);
   PRIVATE
@@ -29,6 +31,7 @@ VAR
 IMPLEMENTATION
 
 {$R *.lfm}
+{$R *.res}
 
 { TwinSize }
 
@@ -36,6 +39,8 @@ PROCEDURE TwinSize.btn1WireCuClick(Sender: TObject);
   VAR
     str: string;
   BEGIN
+
+    str:=LoadResource(0, 'WIRE_CU_1', RC_DATA);
 
     str := '+------------------------+--------------------------------------+-----------------------------------+' + #13#10;
     str += '|Сеченине токопроводящей |   Провода  Напряжение в 220 В        |      Напряжение в 380 В           |'
@@ -61,6 +66,7 @@ PROCEDURE TwinSize.btn1WireCuClick(Sender: TObject);
 
     txtSize.Lines.Clear;
     txtSize.Lines[0] := str;
+    //htmWireSize.L:=str;
   END;
 
 END.
