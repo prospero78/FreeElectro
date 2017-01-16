@@ -10,11 +10,14 @@
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
       <Icon Value="0"/>
+      <Resources Count="1">
+        <Resource_0 FileName="res\1_wire_Cu.txt" Type="HTML" ResourceName="WIRE_CU_1"/>
+      </Resources>
     </General>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <BuildNr Value="4"/>
+      <BuildNr Value="5"/>
       <Language Value="0419"/>
       <CharSet Value="04E3"/>
       <Attributes pvaDebug="True" pvaSpecialBuild="True"/>
