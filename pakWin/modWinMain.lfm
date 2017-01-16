@@ -1,7 +1,7 @@
 object winMain: TwinMain
-  Left = 520
-  Height = 240
-  Top = 165
+  Left = 574
+  Height = 239
+  Top = 188
   Width = 320
   Caption = 'Свободная электрика'
   Menu = mnuMain
@@ -13,6 +13,7 @@ object winMain: TwinMain
       Caption = 'Провода'
       object mnuWireSquare: TMenuItem
         Caption = 'Сечение'
+        OnClick = mnuWireSquareClick
       end
       object mnuSorted1faze: TMenuItem
         Caption = 'Марка (1 фаза)'
