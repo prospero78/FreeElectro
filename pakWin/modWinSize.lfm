@@ -1,0 +1,8 @@
+object winSize: TwinSize
+  Left = 540
+  Height = 240
+  Top = 155
+  Width = 320
+  Caption = 'Площадь сечения'
+  LCLVersion = '5.7'
+end
