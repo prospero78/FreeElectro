@@ -9,7 +9,7 @@ object winMain: TwinMain
   Menu = mnuMain
   LCLVersion = '5.7'
   object btnExit: TButton
-    Left = 253
+    Left = 256
     Height = 24
     Top = 192
     Width = 59
