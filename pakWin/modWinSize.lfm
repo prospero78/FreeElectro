@@ -63,12 +63,30 @@ object winSize: TwinSize
     Caption = '1 провод (алюминий)'
     TabOrder = 2
   end
-  object htmWireSize: THtmlViewer
+  object htmViewer: TFrameBrowser
     Left = 8
-    Height = 152
-    Hint = 'Просмотр данных'
+    Height = 144
     Top = 64
-    Width = 750
+    Width = 336
+    CharSet = DEFAULT_CHARSET
+    CodePage = 0
+    DefFontName = 'Times New Roman'
+    DefPreFontName = 'Courier New'
+    HistoryIndex = 0
+    HistoryMaxCount = 0
+    NoSelect = False
+    PrintMarginBottom = 2
+    PrintMarginLeft = 2
+    PrintMarginRight = 2
+    PrintMarginTop = 2
+    PrintScale = 1
+    TabOrder = 3
+  end
+  object htmV2: THtmlViewer
+    Left = 368
+    Height = 148
+    Top = 56
+    Width = 377
     BorderStyle = htFocused
     DefFontName = 'Times New Roman'
     DefPreFontName = 'Courier New'
@@ -79,8 +97,6 @@ object winSize: TwinSize
     PrintMarginRight = 2
     PrintMarginTop = 2
     PrintScale = 1
-    ScrollBars = ssAutoBoth
-    ShowHint = True
-    TabOrder = 3
+    TabOrder = 4
   end
 end
