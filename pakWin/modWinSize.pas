@@ -5,19 +5,20 @@ UNIT modWinSize;
 INTERFACE
 
 USES
-  Classes, SysUtils, fphttpwebclient, FileUtil, HtmlView, TplButtonUnit,
-	cySimpleGauge, BrookFCLEventLogHandler, Forms, Controls, Graphics, Dialogs,
-	StdCtrls, LResources;
+  Classes, SysUtils, FileUtil, HtmlView, FramBrwz,
+  Forms, Controls, Graphics, Dialogs,
+  StdCtrls, LResources, HelpIntfs;
 
 TYPE
 
   { TwinSize }
 
   TwinSize = CLASS(TForm)
-    btn1WireAl: TButton;
-    btn1WireCu: TButton;
-		htmWireSize: THtmlViewer;
-    txtSize:    TMemo;
+    btn1WireAl:  TButton;
+    btn1WireCu:  TButton;
+		htmV2: THtmlViewer;
+		htmViewer: TFrameBrowser;
+    txtSize:     TMemo;
     PROCEDURE btn1WireCuClick(Sender: TObject);
   PRIVATE
     { private declarations }
@@ -31,7 +32,6 @@ VAR
 IMPLEMENTATION
 
 {$R *.lfm}
-{$R *.res}
 
 { TwinSize }
 
@@ -39,9 +39,11 @@ PROCEDURE TwinSize.btn1WireCuClick(Sender: TObject);
   VAR
     str: string;
   BEGIN
-
-    str:=LoadResource(0, 'WIRE_CU_1', RC_DATA);
-
+    htmViewer.LoadFromFile('res/wire_Cu_1.html');
+    htmViewer.Update;
+    htmV2.LoadFromFile('res/wire_Cu_1.html', HtmlType);
+    //htmWireSize.LoadFromFile('res\wire_Cu_1.htm');
+    //htmWireSize.Update;
     str := '+------------------------+--------------------------------------+-----------------------------------+' + #13#10;
     str += '|Сеченине токопроводящей |   Провода  Напряжение в 220 В        |      Напряжение в 380 В           |'
       + #13#10;
@@ -65,7 +67,8 @@ PROCEDURE TwinSize.btn1WireCuClick(Sender: TObject);
     str += '+------------------------+--------------------------------------+-----------------------------------+  ' + #13#10;
 
     txtSize.Lines.Clear;
-    txtSize.Lines[0] := str;
+    txtSize.Lines.LoadFromFile('res/wire_Cu_1.txt');
+    //txtSize.Lines[0] := str;
     //htmWireSize.L:=str;
   END;
 
