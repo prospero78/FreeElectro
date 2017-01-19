@@ -8,10 +8,9 @@
       <Unit0>
         <Filename Value="FreeElectro.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <CursorPos Y="21"/>
-        <UsageCount Value="37"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="118"/>
       </Unit0>
       <Unit1>
         <Filename Value="pakWin\modWinMain.pas"/>
@@ -21,7 +20,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="26"/>
         <CursorPos X="29" Y="54"/>
-        <UsageCount Value="37"/>
+        <UsageCount Value="118"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -33,9 +32,9 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="24"/>
-        <CursorPos X="54" Y="44"/>
-        <UsageCount Value="36"/>
+        <TopLine Value="29"/>
+        <CursorPos X="37" Y="45"/>
+        <UsageCount Value="117"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -45,23 +44,22 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="5470"/>
         <CursorPos X="14" Y="5497"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="1"/>
       </Unit3>
       <Unit4>
         <Filename Value="FreeElectro.res"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="9"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="1"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit4>
       <Unit5>
         <Filename Value="C:\codetyphon\typhon\components\pl_HtmlViewer\source\htmlview.pas"/>
         <UnitName Value="HtmlView"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="450"/>
-        <CursorPos X="88" Y="475"/>
+        <CursorPos X="53" Y="13"/>
         <FoldState Value=" T7l4F51 T8l5211H"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit5>
@@ -69,71 +67,71 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="63" Column="22" TopLine="35"/>
+        <Caret Line="64" Column="22" TopLine="36"/>
       </Position1>
       <Position2>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="64" Column="22" TopLine="36"/>
+        <Caret Line="63" Column="22" TopLine="35"/>
       </Position2>
       <Position3>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="63" Column="22" TopLine="35"/>
+        <Caret Line="64" Column="22" TopLine="36"/>
       </Position3>
       <Position4>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="64" Column="22" TopLine="36"/>
+        <Caret Line="19" Column="27"/>
       </Position4>
       <Position5>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="63" Column="22" TopLine="35"/>
+        <Caret Line="66" Column="33" TopLine="37"/>
       </Position5>
       <Position6>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="64" Column="22" TopLine="36"/>
+        <Caret Line="10" Column="22"/>
       </Position6>
       <Position7>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="19" Column="27"/>
+        <Caret Line="43" Column="48" TopLine="38"/>
       </Position7>
       <Position8>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="66" Column="33" TopLine="37"/>
+        <Caret Line="44" Column="48" TopLine="39"/>
       </Position8>
       <Position9>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="10" Column="22"/>
+        <Caret Line="43" Column="48" TopLine="38"/>
       </Position9>
       <Position10>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="43" Column="48" TopLine="38"/>
+        <Caret Line="42" Column="20" TopLine="38"/>
       </Position10>
       <Position11>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="44" Column="48" TopLine="39"/>
+        <Caret Line="19" Column="27" TopLine="3"/>
       </Position11>
       <Position12>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="43" Column="48" TopLine="38"/>
+        <Caret Line="42" Column="49" TopLine="38"/>
       </Position12>
       <Position13>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="42" Column="20" TopLine="38"/>
+        <Caret Line="43" Column="7" TopLine="26"/>
       </Position13>
       <Position14>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="19" Column="27" TopLine="3"/>
+        <Caret Line="42" Column="52" TopLine="26"/>
       </Position14>
       <Position15>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="42" Column="49" TopLine="38"/>
+        <Caret Line="70" Column="3" TopLine="40"/>
       </Position15>
       <Position16>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="43" Column="7" TopLine="26"/>
+        <Caret Line="8" Column="26"/>
       </Position16>
       <Position17>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="42" Column="52" TopLine="26"/>
+        <Caret Line="9" Column="2"/>
       </Position17>
       <Position18>
         <Filename Value="pakWin\modWinSize.pas"/>
@@ -141,51 +139,51 @@
       </Position18>
       <Position19>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="8" Column="26"/>
+        <Caret Line="42" Column="51" TopLine="34"/>
       </Position19>
       <Position20>
-        <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="9" Column="2"/>
+        <Filename Value="pakWin\modWinMain.pas"/>
+        <Caret Line="54" Column="29" TopLine="26"/>
       </Position20>
       <Position21>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="70" Column="3" TopLine="40"/>
+        <Caret Line="42" Column="24" TopLine="29"/>
       </Position21>
       <Position22>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="42" Column="51" TopLine="34"/>
+        <Caret Line="10" Column="34"/>
       </Position22>
       <Position23>
-        <Filename Value="pakWin\modWinMain.pas"/>
-        <Caret Line="54" Column="29" TopLine="26"/>
+        <Filename Value="pakWin\modWinSize.pas"/>
+        <Caret Line="42" Column="35" TopLine="35"/>
       </Position23>
       <Position24>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="42" Column="24" TopLine="29"/>
+        <Caret Line="70" Column="50" TopLine="44"/>
       </Position24>
       <Position25>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="10" Column="34"/>
+        <Caret Line="44" Column="10" TopLine="28"/>
       </Position25>
       <Position26>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="42" Column="35" TopLine="35"/>
+        <Caret Line="19" Column="21" TopLine="3"/>
       </Position26>
       <Position27>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="70" Column="50" TopLine="44"/>
+        <Caret Line="45" Column="5" TopLine="27"/>
       </Position27>
       <Position28>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="44" Column="10" TopLine="28"/>
+        <Caret Line="38" Column="27" TopLine="28"/>
       </Position28>
       <Position29>
         <Filename Value="pakWin\modWinSize.pas"/>
-        <Caret Line="19" Column="21" TopLine="3"/>
+        <Caret Line="46" Column="37" TopLine="30"/>
       </Position29>
       <Position30>
-        <Filename Value="C:\codetyphon\typhon\components\pl_HtmlViewer\source\htmlview.pas"/>
-        <Caret Line="441" Column="24" TopLine="418"/>
+        <Filename Value="pakWin\modWinSize.pas"/>
+        <Caret Line="45" Column="37" TopLine="29"/>
       </Position30>
     </JumpHistory>
   </ProjectSession>

@@ -7,7 +7,7 @@ INTERFACE
 USES
   Classes, SysUtils, FileUtil, HtmlView, FramBrwz,
   Forms, Controls, Graphics, Dialogs,
-  StdCtrls, LResources, HelpIntfs;
+  StdCtrls, LResources;
 
 TYPE
 
@@ -42,6 +42,8 @@ PROCEDURE TwinSize.btn1WireCuClick(Sender: TObject);
     htmViewer.LoadFromFile('res/wire_Cu_1.html');
     htmViewer.Update;
     htmV2.LoadFromFile('res/wire_Cu_1.html', HtmlType);
+    htmV2.LoadFromString(Memo1.lines);
+
     //htmWireSize.LoadFromFile('res\wire_Cu_1.htm');
     //htmWireSize.Update;
     str := '+------------------------+--------------------------------------+-----------------------------------+' + #13#10;

@@ -2,10 +2,10 @@ object winSize: TwinSize
   Left = 540
   Height = 546
   Top = 155
-  Width = 765
+  Width = 1010
   Caption = 'Площадь сечения проводов'
   ClientHeight = 546
-  ClientWidth = 765
+  ClientWidth = 1010
   LCLVersion = '5.7'
   object txtSize: TMemo
     Left = 0
